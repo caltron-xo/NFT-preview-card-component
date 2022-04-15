@@ -164,3 +164,7 @@ hr{
 .attribution a { 
   color: white; 
 }
+
+.attribution a:hover { 
+  color: hsl(178, 100%, 50%); 
+}

@@ -19,8 +19,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [https://github.com/caltron-xo/QR-code-component](https://github.com/caltron-xo/QR-code-component)
-- Live Site URL: [https://qr-code-component-by-caltron.netlify.app/](https://qr-code-component-by-caltron.netlify.app/)
+- Solution URL: [https://github.com/caltron-xo/NFT-preview-card-component](https://github.com/caltron-xo/NFT-preview-card-component)
+- Live Site URL: [https://nft-preview-card-component-by-caltron.netlify.app/](https://nft-preview-card-component-by-caltron.netlify.app/)
 
 ## My process
 
