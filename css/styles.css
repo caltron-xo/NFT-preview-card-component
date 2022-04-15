@@ -1,0 +1,166 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 62.5% of 16px = 10px; Therefore, 1rem = 10px */
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: hsl(215, 51%, 70%);
+}
+
+img{
+  width: 100%;
+}
+
+/* Main */
+.container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 32rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.image__container{
+  display: flex;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 1rem;
+  position: relative;
+}
+
+.image__main{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.image__hover{
+  position: absolute;
+  width: 10rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.image__container:hover{
+  cursor: pointer;
+}
+
+.image__container:hover .image__hover{
+  z-index: 1;
+}
+
+.image__container:hover .image__main{
+  opacity: 0.5;
+}
+
+.card__text{
+  margin-top: 1.5rem;
+}
+
+.card__text h3{
+  display: inline;
+  color: white;
+}
+
+.card__text h3:hover{
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.card__eth-time{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card__ethereum{
+  display: flex;
+  align-items: center;
+}
+
+.card__ethereum img {
+height: 2rem;
+width: auto;
+}
+
+.card__ethereum p {
+  margin: 1rem;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%)
+}
+
+.card__time{
+  display: flex;
+  align-items: center;
+}
+
+.card__time img{
+  height: 2rem;
+  width: auto;
+}
+
+.card__time p{
+  margin: 1rem;
+}
+
+hr{
+  width: 100%;
+  color: hsl(215, 32%, 27%);
+}
+
+.card__footer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.card__footer img{
+  border: 0.2rem solid white;
+  border-radius: 100%;
+  height: 5rem;
+  margin-right: 1rem;
+  width: auto;
+}
+
+.card__footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.card__footer a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+/* Attribution */
+.attribution { 
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%,0);
+  font-size: 1.5rem; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: white; 
+}
