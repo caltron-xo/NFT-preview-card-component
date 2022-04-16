@@ -49,6 +49,7 @@ img{
 .image__main{
   width: 100%;
   border-radius: 1rem;
+  transition: opacity 0.5s ease-out;
 }
 
 .image__hover{
@@ -79,6 +80,7 @@ img{
 .card__text h3{
   display: inline;
   color: white;
+  transition: color 0.5s ease-out;
 }
 
 .card__text h3:hover{
@@ -145,6 +147,7 @@ hr{
 .card__footer a{
   color: white;
   text-decoration: none;
+  transition: color 0.5s ease-out;
 }
 
 .card__footer a:hover{
@@ -163,6 +166,7 @@ hr{
 
 .attribution a { 
   color: white; 
+  transition: color 0.5s ease-out;
 }
 
 .attribution a:hover { 
